@@ -15,6 +15,7 @@ namespace Ecom.Web.Controllers
         private readonly UserManager<User> _userManager;
         private readonly IProductService _productService; // Inject Product Service
 
+        // test comment
         public UserController(IUserService userService, SignInManager<User> signInManager, UserManager<User> userManager, IProductService productService)
         {
             _userService = userService;
